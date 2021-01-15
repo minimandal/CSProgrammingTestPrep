@@ -2,6 +2,12 @@ package Sorting;
 
 import util.Print;
 
+/**
+ * Algorithm: This is pretty much like Selection but does for search for least.
+ * Rather it assumes current element is smallest and checks for the next and if it is small then goes to left
+ * and places in the smaller position.
+ *
+ */
 public class InsertionSort {
     public static void main(String[] args) {
         int[] data = new int[]{1,4,7,3,9};
